@@ -68,7 +68,7 @@ struct TwoSum {
         }
     }
     
-    // 该方法是leetcode上的阶梯步骤
+    // 该方法是leetcode上的解题步骤
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         
         var map: Dictionary<Int, Int> = [:]
