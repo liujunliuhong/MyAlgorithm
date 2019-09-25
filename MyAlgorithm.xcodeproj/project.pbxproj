@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */; };
 		EEB09B47232947A900A6E9C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB09B46232947A900A6E9C0 /* main.swift */; };
 		EED0A6F5233A591F00740CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0A6F4233A591F00740CE1 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubString.swift; sourceTree = "<group>"; };
 		EEB09B43232947A900A6E9C0 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB09B46232947A900A6E9C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EED0A6F4233A591F00740CE1 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				EEB09B46232947A900A6E9C0 /* main.swift */,
 				EED0A6F4233A591F00740CE1 /* TwoSum.swift */,
+				1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB09B47232947A900A6E9C0 /* main.swift in Sources */,
+				1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */,
 				EED0A6F5233A591F00740CE1 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,3 +17,5 @@ let target = 324
 TwoSum.twoSum(nums: nums, target: target)
 
 
+let m = MaxSubString.maxSubString(string: "abccdefggrf")
+print(m)
