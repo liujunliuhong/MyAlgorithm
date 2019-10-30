@@ -9,6 +9,8 @@
 import Foundation
 
 struct MaxSubString {
+    // 滑动窗口
+    // https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/hua-dong-chuang-kou-by-powcai/
     static func maxSubString(string: String) -> String {
         if string.count == 0 {
             return ""
