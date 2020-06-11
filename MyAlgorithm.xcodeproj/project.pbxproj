@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */; };
+		18AD961924920DC900500C78 /* string_z_convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD961824920DC900500C78 /* string_z_convert.swift */; };
+		18AD961B2492161000500C78 /* int_reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD961A2492161000500C78 /* int_reverse.swift */; };
 		EEB09B47232947A900A6E9C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB09B46232947A900A6E9C0 /* main.swift */; };
 		EED0A6F5233A591F00740CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0A6F4233A591F00740CE1 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubString.swift; sourceTree = "<group>"; };
+		18AD961824920DC900500C78 /* string_z_convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string_z_convert.swift; sourceTree = "<group>"; };
+		18AD961A2492161000500C78 /* int_reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = int_reverse.swift; sourceTree = "<group>"; };
 		EEB09B43232947A900A6E9C0 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB09B46232947A900A6E9C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EED0A6F4233A591F00740CE1 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				EEB09B46232947A900A6E9C0 /* main.swift */,
 				EED0A6F4233A591F00740CE1 /* TwoSum.swift */,
 				1818CE65233B9B1200BFFEB8 /* MaxSubString.swift */,
+				18AD961824920DC900500C78 /* string_z_convert.swift */,
+				18AD961A2492161000500C78 /* int_reverse.swift */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB09B47232947A900A6E9C0 /* main.swift in Sources */,
+				18AD961924920DC900500C78 /* string_z_convert.swift in Sources */,
+				18AD961B2492161000500C78 /* int_reverse.swift in Sources */,
 				1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */,
 				EED0A6F5233A591F00740CE1 /* TwoSum.swift in Sources */,
 			);
