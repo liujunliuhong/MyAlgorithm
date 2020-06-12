@@ -31,3 +31,55 @@ print("\(convertString)")
 
 let newValue = int_reverse(12345)
 print("\(newValue)")
+
+
+
+
+
+
+
+
+
+var s = "123456789"
+
+let startIndex = s.startIndex
+let endIndex = s.endIndex
+
+let index1 = s.index(startIndex, offsetBy: 2)
+let index2 = s.index(startIndex, offsetBy: 2+2)
+
+
+let subString = s[index1..<index2]
+
+print("\(subString)")
+
+
+let subString1 = (s as NSString).substring(with: NSRange(location: 2, length: 2)) as String
+print("\(subString1)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
