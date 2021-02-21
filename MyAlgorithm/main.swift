@@ -29,8 +29,8 @@ print("\(convertString)")
 */
 
 
-let newValue = int_reverse(12345)
-print("\(newValue)")
+//let newValue = int_reverse(12345)
+//print("\(newValue)")
 
 
 
@@ -40,26 +40,31 @@ print("\(newValue)")
 
 
 
-var s = "123456789"
-
-let startIndex = s.startIndex
-let endIndex = s.endIndex
-
-let index1 = s.index(startIndex, offsetBy: 2)
-let index2 = s.index(startIndex, offsetBy: 2+2)
-
-
-let subString = s[index1..<index2]
-
-print("\(subString)")
-
-
-let subString1 = (s as NSString).substring(with: NSRange(location: 2, length: 2)) as String
-print("\(subString1)")
-
-
+//var s = "123456789"
+//
+//let startIndex = s.startIndex
+//let endIndex = s.endIndex
+//
+//let index1 = s.index(startIndex, offsetBy: 2)
+//let index2 = s.index(startIndex, offsetBy: 2+2)
+//
+//
+//let subString = s[index1..<index2]
+//
+//print("\(subString)")
+//
+//
+//let subString1 = (s as NSString).substring(with: NSRange(location: 2, length: 2)) as String
+//print("\(subString1)")
 
 
+
+
+
+let candidates = [2, 3, 5]
+let target = 8
+let results = MutiSum().combinationSum(candidates, target)
+print(results)
 
 
 

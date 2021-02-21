@@ -11,6 +11,7 @@
 		18AD961924920DC900500C78 /* string_z_convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD961824920DC900500C78 /* string_z_convert.swift */; };
 		18AD961B2492161000500C78 /* int_reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD961A2492161000500C78 /* int_reverse.swift */; };
 		18BE99D32493562D00D48208 /* string_to_int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE99D22493562D00D48208 /* string_to_int.swift */; };
+		8596C99E25E23EFC00B5E2C7 /* MutiSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8596C99D25E23EFC00B5E2C7 /* MutiSum.swift */; };
 		EEB09B47232947A900A6E9C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB09B46232947A900A6E9C0 /* main.swift */; };
 		EED0A6F5233A591F00740CE1 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0A6F4233A591F00740CE1 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		18AD961824920DC900500C78 /* string_z_convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string_z_convert.swift; sourceTree = "<group>"; };
 		18AD961A2492161000500C78 /* int_reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = int_reverse.swift; sourceTree = "<group>"; };
 		18BE99D22493562D00D48208 /* string_to_int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = string_to_int.swift; sourceTree = "<group>"; };
+		8596C99D25E23EFC00B5E2C7 /* MutiSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiSum.swift; sourceTree = "<group>"; };
 		EEB09B43232947A900A6E9C0 /* MyAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB09B46232947A900A6E9C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EED0A6F4233A591F00740CE1 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				18AD961824920DC900500C78 /* string_z_convert.swift */,
 				18AD961A2492161000500C78 /* int_reverse.swift */,
 				18BE99D22493562D00D48208 /* string_to_int.swift */,
+				8596C99D25E23EFC00B5E2C7 /* MutiSum.swift */,
 			);
 			path = MyAlgorithm;
 			sourceTree = "<group>";
@@ -104,7 +107,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = yinhe;
 				TargetAttributes = {
 					EEB09B42232947A900A6E9C0 = {
@@ -118,6 +121,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = EEB09B3A232947A900A6E9C0;
 			productRefGroup = EEB09B44232947A900A6E9C0 /* Products */;
@@ -136,6 +140,7 @@
 			files = (
 				EEB09B47232947A900A6E9C0 /* main.swift in Sources */,
 				18BE99D32493562D00D48208 /* string_to_int.swift in Sources */,
+				8596C99E25E23EFC00B5E2C7 /* MutiSum.swift in Sources */,
 				18AD961924920DC900500C78 /* string_z_convert.swift in Sources */,
 				18AD961B2492161000500C78 /* int_reverse.swift in Sources */,
 				1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */,
@@ -172,6 +177,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -233,6 +239,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -267,6 +274,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -279,6 +287,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
