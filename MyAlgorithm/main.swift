@@ -8,6 +8,10 @@
 
 import Foundation
 
+public class Solution {
+    
+}
+
 print("Hello, World!")
 
 
@@ -61,11 +65,15 @@ print("\(convertString)")
 
 
 
-let candidates = [2, 3, 5]
-let target = 8
-let results = MutiSum().combinationSum(candidates, target)
-print(results)
+//let candidates = [2, 3, 5]
+//let target = 8
+//let results = MutiSum().combinationSum(candidates, target)
+//print(results)
+//
+//
 
+
+Solution().reverse_link_test()
 
 
 
