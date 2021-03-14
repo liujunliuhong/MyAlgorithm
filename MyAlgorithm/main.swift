@@ -73,7 +73,7 @@ print("\(convertString)")
 //
 
 
-Solution().reverse_link_test()
+Solution().merge_intervals_test()
 
 
 
