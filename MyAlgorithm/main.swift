@@ -73,7 +73,7 @@ print("\(convertString)")
 //
 
 
-Solution().merge_intervals_test()
+Solution().k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio()
 
 
 

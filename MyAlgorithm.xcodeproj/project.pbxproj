@@ -15,6 +15,7 @@
 		8529D52A25FDBDAB009A6430 /* merge_intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529D52925FDBDAB009A6430 /* merge_intervals.swift */; };
 		8529D52D25FDE344009A6430 /* lru_cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529D52C25FDE344009A6430 /* lru_cache.swift */; };
 		8596C99E25E23EFC00B5E2C7 /* MutiSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8596C99D25E23EFC00B5E2C7 /* MutiSum.swift */; };
+		85AD8FA625FFA4FF0056D223 /* k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD8FA525FFA4FF0056D223 /* k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift */; };
 		85B072AD25FC4565009DF53F /* link_add_two_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B072AC25FC4565009DF53F /* link_add_two_number.swift */; };
 		85B072B025FC4D42009DF53F /* kth-node-from-end-of-list-lcci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B072AF25FC4D42009DF53F /* kth-node-from-end-of-list-lcci.swift */; };
 		85B072B325FC51C3009DF53F /* merge-in-between-linked-lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B072B225FC51C3009DF53F /* merge-in-between-linked-lists.swift */; };
@@ -45,6 +46,7 @@
 		8529D52925FDBDAB009A6430 /* merge_intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge_intervals.swift; sourceTree = "<group>"; };
 		8529D52C25FDE344009A6430 /* lru_cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lru_cache.swift; sourceTree = "<group>"; };
 		8596C99D25E23EFC00B5E2C7 /* MutiSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutiSum.swift; sourceTree = "<group>"; };
+		85AD8FA525FFA4FF0056D223 /* k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift; sourceTree = "<group>"; };
 		85B072AC25FC4565009DF53F /* link_add_two_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = link_add_two_number.swift; sourceTree = "<group>"; };
 		85B072AF25FC4D42009DF53F /* kth-node-from-end-of-list-lcci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kth-node-from-end-of-list-lcci.swift"; sourceTree = "<group>"; };
 		85B072B225FC51C3009DF53F /* merge-in-between-linked-lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "merge-in-between-linked-lists.swift"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				8529D52625FDBAAC009A6430 /* shan_chu_pai_xu_shu_zu_zhong_de_chong_fu_xiang.swift */,
 				8529D52925FDBDAB009A6430 /* merge_intervals.swift */,
 				8529D52C25FDE344009A6430 /* lru_cache.swift */,
+				85AD8FA525FFA4FF0056D223 /* k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift */,
 				85B5202225FB79F50027D2D1 /* LinkReverse1.h */,
 				85B5202325FB79F50027D2D1 /* LinkReverse1.m */,
 				85B5202125FB79F40027D2D1 /* MyAlgorithm-Bridging-Header.h */,
@@ -177,6 +180,7 @@
 				85B072B325FC51C3009DF53F /* merge-in-between-linked-lists.swift in Sources */,
 				8596C99E25E23EFC00B5E2C7 /* MutiSum.swift in Sources */,
 				18AD961924920DC900500C78 /* string_z_convert.swift in Sources */,
+				85AD8FA625FFA4FF0056D223 /* k_ge_yi_zu_fan_zhuan_lian_biao_by_leetcode_solutio.swift in Sources */,
 				18AD961B2492161000500C78 /* int_reverse.swift in Sources */,
 				1818CE66233B9B1200BFFEB8 /* MaxSubString.swift in Sources */,
 				8529D52A25FDBDAB009A6430 /* merge_intervals.swift in Sources */,
